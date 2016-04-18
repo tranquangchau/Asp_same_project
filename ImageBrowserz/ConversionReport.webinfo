@@ -1,0 +1,37 @@
+﻿This report shows the steps taken to convert your Web application from ASP.NET 1.1 to ASP.NET 2.0. 
+There may be some unresolved conversion issues you will need to manually fix. 
+For more information, please refer to http://go.microsoft.com/fwlink/?LinkId=46995 or search for the help topic "Converting from Visual Studio .NET 2002 or 2003".
+Conversion Started on project file ImageBrowser.csproj at April 18 2016, 20:54:24.
+
+=========================ERRORS===================
+
+=========================WARNINGS=================
+Warning: This web project was converted as a file-based web application. If your site contained any IIS meta-information, e.g. sub-folders marked as virtual directories, it is recommended that you close this web site and re-open it using the Open Web Site command and selecting the Local IIS tab.
+
+=========================COMMENTS=================
+Web.Config: Added 'xhtmlConformance' attribute.
+Removed attribute AutoEventWireup from file default.aspx.
+Removed attribute Codebehind from file default.aspx.
+Access level of 'Page_Load' changed to 'protected' in file default.aspx.cs (Line 21).
+Removed attribute AutoEventWireup from file FillCache.aspx.
+Removed attribute Codebehind from file FillCache.aspx.
+Access level of 'Page_Load' changed to 'protected' in file FillCache.aspx.cs (Line 23).
+Access level of 'Fill_Click' changed to 'protected' in file FillCache.aspx.cs (Line 128).
+Access level of 'DeleteFill_Click' changed to 'protected' in file FillCache.aspx.cs (Line 134).
+Access level of 'Delete_Click' changed to 'protected' in file FillCache.aspx.cs (Line 141).
+Removed attribute TargetSchema from file ImageBrowser\ImageBrowser.ascx.
+Removed attribute AutoEventWireup from file ImageBrowser\ImageBrowser.ascx.
+Removed attribute Codebehind from file ImageBrowser\ImageBrowser.ascx.
+Access level of 'Page_Load' changed to 'protected' in file ImageBrowser\ImageBrowser.ascx.cs (Line 17).
+Removed attribute AutoEventWireup from file ImageBrowser\WebImage.ascx.
+Removed attribute Codebehind from file ImageBrowser\WebImage.ascx.
+Access level of 'Page_Load' changed to 'protected' in file ImageBrowser\WebImage.ascx.cs (Line 23).
+Added folder App_Code\ImageBrowser.
+Moved file ImageBrowser\HtmlTools.cs to the App_Code\ImageBrowser\ directory.
+Moved file ImageBrowser\ImageTools.cs to the App_Code\ImageBrowser\ directory.
+Moved file ImageBrowser\Entities.cs to the App_Code\ImageBrowser\ directory.
+Moved file AssemblyInfo.cs to the App_Code\ directory.
+Removed file Bin\ImageBrowser.dll.
+Removed file ImageBrowser.csproj.
+Removed file ImageBrowser.csproj.webinfo.
+Project ImageBrowser.csproj has been converted successfully at April 18 2016, 20:54:25.
